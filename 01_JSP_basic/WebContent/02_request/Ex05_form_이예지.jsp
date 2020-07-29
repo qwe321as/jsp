@@ -35,11 +35,11 @@ span{
 			alert("배송시간을 선택하세용~");
 			return false;
 		} 
-		if ($('input[name=approve]').is(':checked')==false) {
+		if (!$('input[name=approve]').is(':checked')) {
 			alert("결재방법을 선택하세용~");
 			return false;
 		} 
-		if ($('input[name=agree]').is(':checked')==false) {
+		if (!$('input[name=agree]').is(':checked')) {
 			alert("결제를 동의해주세용~");
 			return false;
 		}

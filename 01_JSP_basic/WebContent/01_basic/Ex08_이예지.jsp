@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <table border = "1">
 <%
-%> <tr align="center"> <% 
+%> <tr align="center" background="red"> <% 
 for(int i=2; i<10; i++){
 	%> <th bgcolor=pink width="300px"> <% out.println(i+"단"); %> </th> <% 	
 }

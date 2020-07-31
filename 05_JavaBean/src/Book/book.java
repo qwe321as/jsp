@@ -4,7 +4,7 @@ public class book {
 private String title;
 private String author;
 private String publisher;
-private String price;
+private int price;
 private String date;
 private String bookstore;
 private String kind;
@@ -27,10 +27,10 @@ public String getPublisher() {
 public void setPublisher(String publisher) {
 	this.publisher = publisher;
 }
-public String getPrice() {
+public int getPrice() {
 	return price;
 }
-public void setPrice(String price) {
+public void setPrice(int price) {
 	this.price = price;
 }
 public String getDate() {

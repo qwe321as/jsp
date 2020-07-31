@@ -7,7 +7,7 @@ request.setCharacterEncoding("UTF-8");
 String title = request.getParameter("title");
 String author = request.getParameter("author");
 String publisher = request.getParameter("publisher");
-String price = request.getParameter("price");
+int price = Integer.parseInt(request.getParameter("price"));
 String date = request.getParameter("date");
 String [] bookstore = request.getParameterValues("bookstore");
 String kind = request.getParameter("kind");
